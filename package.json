@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Vrondir/11ty-test#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-youtube-embed": "^1.9.1"
   }
 }

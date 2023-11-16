@@ -1,0 +1,19 @@
+---
+title: Videos
+layout: 'base.njk'
+---
+
+<div class="section container">
+<h1 class="section-title">Recent videos</h1>
+
+<ul role="list" class="articles__list flow">
+
+  {%- for post in collections.video | reverse -%}
+    {% include 'video-snippet.njk' %}
+  {%- endfor %}
+
+</ul>
+
+</div>
+
+<li>
