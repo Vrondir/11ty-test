@@ -4,6 +4,7 @@ const embedYouTube = require('eleventy-plugin-youtube-embed')
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/style.css')
 	eleventyConfig.addPassthroughCopy('./src/assets')
+	eleventyConfig.addPassthroughCopy('./src/admin')
 	eleventyConfig.addPlugin(embedYouTube)
 
 	eleventyConfig.addFilter('postDate', (dateObj) => {

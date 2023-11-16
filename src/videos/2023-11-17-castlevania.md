@@ -1,6 +1,7 @@
 ---
 title: Sick Ass Music
 author: Nikola Porumbachanov
+description: anotha one
 date: 2023-11-16
 video: 'https://www.youtube.com/embed/GQc92nHJtWU'
 ---
